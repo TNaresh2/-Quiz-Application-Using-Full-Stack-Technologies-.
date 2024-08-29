@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3b7f0;
+}
+.container {
+    max-width: 500px;
+    margin: 87px;
+    margin-left: 500px;
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #cee6f2;
+    
+    box-shadow: 0 0 20px rgba(126, 1, 112, 0.1);
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: hsla(300, 92%, 50%, 0.544);
+}
+h4{
+    text-align: center;
+    margin-bottom: 30px;
+    color: hsla(206, 96%, 50%, 0.544);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+
+    margin-bottom: 10px;
+    color: #0f0c0c;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #01254b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0dae48;
+}

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* a {
+    color: #fcfdfe;
+    text-decoration: none;
+    /* border: 1px solid black; */
+   /* padding: 5px;
+    margin: 25px;
+    
+    border-radius: 5px;
+    background-color: rgb(241, 246, 249);
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+a {
+    color: #2c3e50; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Increase padding for better spacing */
+    margin: 20px; /* Adjust margin for spacing */
+    
+    border-radius: 8px; /* Round the corners more */
+    background-color: #f1f6f9; /* Light background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Hover effect */
+a:hover {
+    background-color: #d9e3ea; /* Slightly darker background on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+    color: #010911; /* Lighter text color on hover */
+    text-decoration: none; /* Ensure underline is removed on hover */
+}
+
+.back{
+    background-color: #5994d5;
+    padding: 10px;
+}

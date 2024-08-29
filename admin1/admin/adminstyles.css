@@ -1,0 +1,65 @@
+*{
+    margin  : 0;
+    padding : 0;
+}
+body{
+    /* background: url("images/login.jpg") ; */
+    background-size: 280%;
+    background-position: -400px 0px;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman';
+}
+div.register{
+    border-color: rgba(245, 5, 5, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px soid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px
+    rgba(0,0,0,0.3);
+    color: #031b5f;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+   
+}
+:input#name{
+    width: 100px;
+    height: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    
+    outline: 0;
+    padding: 7px;
+    background-color: #ba4141;
+    box-shadow: inset1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: rgb(72, 72, 157);
+    border-radius: 3px;
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #3ab2ee;
+    cursor: pointer;
+    border: 1px solid rgba(156, 92, 19, 0.3);
+    box-shadow: 1px 1px 5px rgba(203, 55, 55, 0.5) ;
+    margin-bottom: 20px;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(189, 17, 17, 0.5);
+}

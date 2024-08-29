@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ae2747;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.certificate-container {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.certificate-border {
+    border: 10px solid #d4af37;
+    padding: 20px;
+    position: relative;
+    background: linear-gradient(to right, #ae2747, #d4af37);
+    border-radius: 10px;
+}
+
+.certificate-inner-border {
+    border: 5px solid #ffffff;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.certificate-inner-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('R.png') no-repeat center center;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.certificate-content {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.certificate-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon {
+    position: absolute;
+    left: 0;
+    font-size: 48px;
+    color: #d4af37;
+}
+
+.certificate-header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #000000;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.certificate-body h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #000000;
+    font-family: 'Times New Roman';
+}
+
+.certificate-body h2 {
+    font-size: 28px;
+    color: #ae2747;
+    margin: 10px 0;
+    font-family: 'Times New Roman';
+}
+
+.certificate-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #000000;
+   
+}
+
+.user-image-container {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Times New Roman';
+}
+
+.user-image-container .user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #d4af37;
+}
+
+.image-icon {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    font-size: 24px;
+    color: #d4af37;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.certificate-details-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.certificate-details-left p {
+    font-size: 16px;
+    margin: 5px 0;
+    
+}
+
+.certificate-footer p {
+    font-size: 14px;
+    margin-top: 30px;
+    color: #000000;
+    
+}
